@@ -5,6 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/NBULogStub.svg?style=flat)](http://cocoapods.org/pods/NBULogStub)
 [![Platform](https://img.shields.io/cocoapods/p/NBULogStub.svg?style=flat)](http://cocoapods.org/pods/NBULogStub)
 
+自作 pod で NBULog を使いたいときに、cocoapods 0.36.0 以降だと正常に $ pod repo push できなくなりました。
+公式ドキュメントに掲載されている方法 https://github.com/CyberAgent/NBULog をまとめて pod にしたものです。
+
+Podfile には pod "NBULog"、pod spec には s.dependency "NBULogStub" を追加し、
+podライブラリのヘッダ部に #import <NBULogStub.h> を追加しましょう。
+
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
