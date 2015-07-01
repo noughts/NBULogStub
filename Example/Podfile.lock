@@ -9,7 +9,7 @@ PODS:
     - CocoaLumberjack/Default
   - NBULog (1.2.4):
     - CocoaLumberjack (>= 2.0.0)
-  - NBULogStub (0.1.0)
+  - NBULogStub (0.1.2)
 
 DEPENDENCIES:
   - NBULog
@@ -22,6 +22,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
   NBULog: 4003be6706b97a7e376ab4171c666ac7c2fbc2b2
-  NBULogStub: 35a1ba20b1b2bbe66a6bc9150b9e91acffd2660f
+  NBULogStub: 05669c2145576aec4461a125a90e5576f16b3d6b
 
 COCOAPODS: 0.37.2

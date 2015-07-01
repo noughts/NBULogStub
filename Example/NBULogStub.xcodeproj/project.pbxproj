@@ -20,9 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		7A7F15E1C938DE0691B20156 /* libPods-NBULogStub_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C169198E1FD11D94482219DF /* libPods-NBULogStub_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		99DFD7823E56FC7330C7DE2B /* Pods_NBULogStub_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63AD428DEC94BA02BC024FB /* Pods_NBULogStub_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BB3A454C61486B22E822F91C /* Pods_NBULogStub_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B872F04449D5401F9451EA1 /* Pods_NBULogStub_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FDEE52844FFFEF7F4AB7B921 /* libPods-NBULogStub_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA43D4CAA354940B574F741 /* libPods-NBULogStub_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +58,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		732A9A5CF645C44AE07054BD /* Pods-NBULogStub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBULogStub_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBULogStub_Example/Pods-NBULogStub_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7B872F04449D5401F9451EA1 /* Pods_NBULogStub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBULogStub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8690C7F59BCBC6DFCF573959 /* NBULogStub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NBULogStub.podspec; path = ../NBULogStub.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		92EC449F1A8BF917888C104F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A340EE4A18BBD645AFDD4DAC /* Pods-NBULogStub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBULogStub_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBULogStub_Tests/Pods-NBULogStub_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C169198E1FD11D94482219DF /* libPods-NBULogStub_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBULogStub_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F25B8018C1D4A32FA67F49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E63AD428DEC94BA02BC024FB /* Pods_NBULogStub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBULogStub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA43D4CAA354940B574F741 /* libPods-NBULogStub_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBULogStub_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				99DFD7823E56FC7330C7DE2B /* Pods_NBULogStub_Example.framework in Frameworks */,
+				7A7F15E1C938DE0691B20156 /* libPods-NBULogStub_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				BB3A454C61486B22E822F91C /* Pods_NBULogStub_Tests.framework in Frameworks */,
+				FDEE52844FFFEF7F4AB7B921 /* libPods-NBULogStub_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E63AD428DEC94BA02BC024FB /* Pods_NBULogStub_Example.framework */,
-				7B872F04449D5401F9451EA1 /* Pods_NBULogStub_Tests.framework */,
+				C169198E1FD11D94482219DF /* libPods-NBULogStub_Example.a */,
+				DBA43D4CAA354940B574F741 /* libPods-NBULogStub_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,7 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BCD27581BFB497969C6E4266 /* Embed Pods Frameworks */,
 				4A6277E470CA843FD852CBEA /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -224,7 +223,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				F753B0C2AF116217754DAB90 /* Embed Pods Frameworks */,
 				7254BA333CB7DD40F42E4B6D /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -338,21 +336,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBULogStub_Tests/Pods-NBULogStub_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCD27581BFB497969C6E4266 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBULogStub_Example/Pods-NBULogStub_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E3F31637CD6BEBA3C5A3CA5B /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,21 +349,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F753B0C2AF116217754DAB90 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBULogStub_Tests/Pods-NBULogStub_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
