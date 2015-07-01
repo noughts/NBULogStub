@@ -11,6 +11,8 @@
 Podfile には pod "NBULog"、pod spec には s.dependency "NBULogStub" を追加し、
 podライブラリのヘッダ部に #import <NBULogStub.h> を追加しましょう。
 
+また、NBULogVerbose などのレベルが低いログを表示するには [NBULog setKitLogLevel:DDLogLevelVerbose] しておきましょう。
+
 
 ## Usage
 
