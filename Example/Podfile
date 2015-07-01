@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'NBULogStub_Example', :exclusive => true do
   pod "NBULogStub", :path => "../"
+  pod "NBULog"
 end
 
 target 'NBULogStub_Tests', :exclusive => true do
