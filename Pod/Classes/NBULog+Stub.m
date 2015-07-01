@@ -20,7 +20,7 @@
 
 #if __has_include("NBULog.h")
 
-#import "NBULog+NBUKit.h"
+#import "NBULog+Stub.h"
 #import <NBULog/NBULogContextDescription.h>
 
 static DDLogLevel _kitLogLevel;

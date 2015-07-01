@@ -20,7 +20,7 @@
 #ifdef DEBUG
 #define NBUKIT_LOG_LEVEL DDLogLevelVerbose
 #else
-#define NBUKIT_LOG_LEVEL DDLogLevelWarning
+#define NBUKIT_LOG_LEVEL DDLogLevelInfo
 #endif
 
 #define LOG_LEVEL_DEF   NBUKIT_LOG_LEVEL
@@ -38,9 +38,9 @@
 #else
 
 #ifdef DEBUG
-#define LOG_LEVEL 3
+#define LOG_LEVEL 5
 #else
-#define LOG_LEVEL 2
+#define LOG_LEVEL 3
 #endif
 
 #define THIS_METHOD                 NSStringFromSelector(_cmd)
